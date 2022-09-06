@@ -2,39 +2,109 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | FAQ Accordion Card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+  <div id="container">
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+    <div id="small-container">
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
+      <div class="grid-items" id="images">
+        <img src="images/illustration-box-desktop.svg" id="box">
+        <img src="images/illustration-woman-online-mobile.svg" id="mobile">
+      </div>
 
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
+      <div class="grid-items">
 
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        <h1 id="heading">FAQ</h1>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+        <div class="faq">
+
+          <h4 class="question" id="question1">How many team members can I invite?</h4>
+
+          <input type="checkbox" class="checkbox" id="checkbox1">
+
+          <label for="checkbox1">
+
+            <img src="images/icon-arrow-down.svg" class="arrows">
+
+          </label>
+
+          <p class="answer" id="answer1">You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+
+        </div>
+
+        <div class="faq">
+
+          <h4 class="question" id="question2">What is the maximum file upload size?</h4>
+
+          <input type="checkbox" class="checkbox" id="checkbox2">
+
+          <label for="checkbox2">
+
+            <img src="images/icon-arrow-down.svg" class="arrows">
+
+          </label>
+
+          <p class="answer" id="answer2">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+
+        </div>
+
+        <div class="faq">
+
+          <h4 class="question" id="question3">How do I reset my password?</h4>
+
+          <input type="checkbox" class="checkbox" id="checkbox3">
+
+          <label for="checkbox3">
+
+            <img src="images/icon-arrow-down.svg" class="arrows">
+
+          </label>
+
+          <p class="answer" id="answer3">Click “Forgot password” from the login page or “Change password” from your profile page.A reset link will be emailed to you.</p>
+
+        </div>
+
+        <div class="faq">
+
+          <h4 class="question" id="question4">Can I cancel my subscription?</h4>
+
+          <input type="checkbox" class="checkbox" id="checkbox4">
+
+          <label for="checkbox4">
+
+            <img src="images/icon-arrow-down.svg" class="arrows">
+
+          </label>
+
+          <p class="answer" id="answer4">Yes! Send us a message and we’ll process your request no questions asked.</p>
+
+        </div>
+
+        <div class="faq">
+
+          <h4 class="question" id="question5">Do you provide additional support?</h4>
+
+          <input type="checkbox" class="checkbox" id="checkbox5">
+
+          <label for="checkbox5">
+
+            <img src="images/icon-arrow-down.svg" class="arrows">
+
+          </label>
+
+          <p class="answer" id="answer5">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
   </div>
 </body>
 </html>
